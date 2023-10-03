@@ -1,0 +1,102 @@
+h1 {
+    margin-left: 3px;
+    font-size: 45px;
+    color:rgba(100, 73, 61, 0.89);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    line-height: 90%;
+    margin-bottom: 0%;
+}
+
+hr.solid {
+    border-top: 3px solid #560c0c;
+}
+
+.date{
+    margin: 10px;
+}
+
+h2{
+    /*color:#7d6e48;
+    background-color:#ecd9a5e6; */
+    background-color: rgba(100, 73, 61, 0.89);
+    color:rgb(246, 229, 218);
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    kerning: 120%;
+    line-height: 120%;
+}
+
+body{
+    background-color: rgb(236, 208, 189);
+    /*background: linear-gradient(180deg, rgb(193.37, 171.94, 116.83) 0%, #C03A00 35%);*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(58, 58, 53); 
+    font-size:18px;
+    line-height: 30px;
+}
+
+p{
+    margin-inline: 45px;
+}
+
+.cst-boba{
+    max-height: 350px;
+    float: center;
+    object-position: center;
+}
+
+.taiwan-map{
+    object-position: center;
+    
+}
+
+.home-boba{
+    padding: 10px;
+    margin-left: 10px;
+}
+.boba{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    float: left;
+    line-height: 15px;
+    font-size: 40px;
+    text-align: left;
+    padding: 10px;
+    margin: 30px;
+    font-weight: bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+a{
+    text-decoration: underline;
+}
+
+a:visited {
+    color:rgb(135, 86, 107);
+}
+
+a:hover {
+    color: white;
+}
+/*states of a link*/
+
+.boba-marquee{
+
+    max-width: 100%;
+    color:rgb(136, 126, 108);
+}
+
+footer {
+    /*background-color:#9b2f01;*/
+    padding: 10px;
+    text-align: center;
+    color: rgb(131, 131, 131);
+    font-family: 'Times New Roman', Times, serif;
+}
+
