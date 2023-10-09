@@ -1,0 +1,141 @@
+h1 {
+    margin-left: 3px;
+    font-size: 70px;
+    color:#fffad1;
+    margin-top: 4px;
+}
+
+.date{
+    margin: 10px;
+}
+
+/*dot divider*/
+hr.dotted {
+    border-top: 10px dotted #f1a856;
+}
+
+bold{
+    font-weight: bold;
+}
+
+h2{
+    /*color:#7d6e48;
+    background-color:#ecd9a5e6;*/
+    background-color: rgba(255, 248, 220, 0.89);
+    color: #c03a00e6;
+    font-size: 45px;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+    position:sticky;
+    white-space: pre;
+    line-height: 28px;
+    kerning: 110%;
+}
+
+body{
+    background-color: rgba(255, 255, 255, 1);
+    background: linear-gradient(180deg, rgb(193.37, 171.94, 116.83) 0%, #C03A00 35%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightgoldenrodyellow; 
+}
+
+p{
+    font-size: 15px;
+    margin-inline: 50px;
+    line-height: 25px;
+}
+
+.boba-wiki{
+    display: flex;
+    float: left;
+    margin: 5px;
+}
+
+.elements-intro{
+    margin-bottom: 0;
+    margin-top: 8px;
+    padding: 8px;
+    padding-bottom: 0px;
+    font-size: 22px;
+}
+
+ul, .elements-intro{
+    margin: 15 px;
+    padding: 15 px;
+    padding-left: 25px;
+    color:rgb(100, 117, 68);
+    background-color:#ffeebb;
+    font-size: 24px;
+    line-height: 25px;
+}
+
+.boba-wiki{
+    width: 20%;
+    display:inline-block;
+    vertical-align:top;
+    position:relative;
+    padding: 15px;
+}
+
+ul li:before, h3:before{
+    content: '\2726';
+    margin: 0 1em;    /* any design */
+}
+
+h3{
+    background-color: rgba(255, 222, 206, 0.89);
+    color: #405e00;
+    font-size: 28px;
+    text-align: left;
+    padding: 12px;
+    margin: 20px;
+    margin-inline-start: 0;
+    position: sticky;
+    width: 45%;
+}
+
+.text{
+    font-size: 15px;
+    margin-inline: 45px;
+    display: flex;
+    line-height: 25px;
+    color:aliceblue;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+a{
+    color:#fffad1;
+    text-decoration: underline;
+    position: flex;
+    margin: 6px;
+}
+
+a:visited {
+    color:darkkhaki;
+}
+
+a:hover {
+    color: white;
+}
+/*states of a link*/
+
+.boba-marquee{
+    max-width: 100%;
+    color:moccasin;
+    text-align: center;
+}
+
+footer {
+    background-color:#9b2f01;
+    color: white;
+}
+
