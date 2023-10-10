@@ -18,6 +18,11 @@ bold{
     font-weight: bold;
 }
 
+small{
+    font: 15px;
+    line-height: 15px;
+}
+
 h2{
     /*color:#7d6e48;
     background-color:#ecd9a5e6;*/
@@ -105,6 +110,8 @@ h3{
 
 .row {
     display: flex;
+    margin: 20px;
+    margin-bottom: 10px;
 }
 
 .column {
