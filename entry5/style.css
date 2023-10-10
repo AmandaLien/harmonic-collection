@@ -113,6 +113,10 @@ h3{
 }
 
 a{
+    text-decoration: underline;
+}
+
+.entry-links{
     color:#fffad1;
     text-decoration: underline;
     position: flex;
