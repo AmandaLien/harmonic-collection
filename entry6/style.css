@@ -19,6 +19,10 @@ h2{
     margin: 30px;
 }
 
+bold{
+    font-weight: bold;
+}
+
 body{
     background-color: rgba(255, 255, 255, 1);
     background: linear-gradient(180deg, rgb(193.37, 171.94, 116.83) 0%, #C03A00 35%);
@@ -26,34 +30,47 @@ body{
     color: lightgoldenrodyellow; 
 }
 
-.fiftylan-pic{
+.top-section{
     display: flex;
-    float: left;
+    background-color:#ffeebb;
+}
+
+.fiftylan-pic{
+    width: 20%;
     margin: 5px;
+    display: flex;
+    justify-content: left;
+    margin-top: 12px;
+}
+
+.rating-list{
+    display: flex;
 }
 
 ul{
     margin: 15 px;
+    margin-top: 20px;
     padding: 15 px;
     color:rgb(100, 117, 68);
     background-color:#ffeebb;
     font-size: 15px;
-    /*
-    background-color: cornsilk;
-    color: #C03A00;*/
-}
-
-.teazzi-pic{
-    width: 20%;
-    display:inline-block;
-    vertical-align:top;
-    position:relative;
-    background-size: relative;
 }
 
 ul li:before{
     content: '\2726';
     margin: 0 1em;    /* any design */
+}
+
+.middle-section{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+.inside-middle-section{
+    display: flex;
+    flex-direction: column;
+    justify-self: right;
 }
 
 .rating-text{
@@ -62,6 +79,26 @@ ul li:before{
     display: flex;
     line-height: 25px;
     color:aliceblue;
+    width: 70%;
+}
+
+.sealing-pic{
+    height: 20%;
+    margin: 5px;
+    display: flex;
+    width: 30%;
+}
+
+.stampcards-pic{
+    margin: 10px;
+    display: flex;
+    width: 10%;
+}
+
+.receipt-pic{
+    margin: 10px;
+    display: flex;
+    width: 25%;
 }
 
 a{

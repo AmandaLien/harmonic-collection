@@ -19,6 +19,10 @@ h2{
     margin: 30px;
 }
 
+bold{
+    font-weight: bold;
+}
+
 body{
     background-color: rgba(255, 255, 255, 1);
     background: linear-gradient(180deg, rgb(193.37, 171.94, 116.83) 0%, #C03A00 35%);
