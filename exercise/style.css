@@ -1,0 +1,43 @@
+.flex-center{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.outer{
+    background-color: green;
+    height: 400px;
+    width: 400px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.second{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+ 
+.third{
+    background-color: tan;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.center{
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.
