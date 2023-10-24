@@ -40,7 +40,7 @@ a:hover {
 }
 
 a{
-    text-decoration: overline;
+    text-decoration: underline;
 }
 
 .frame .div {
