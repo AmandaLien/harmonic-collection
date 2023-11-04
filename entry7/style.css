@@ -29,8 +29,7 @@ h2{
     text-align: center;
     padding: 20px;
     margin: 30px;
-    position:sticky;
-    white-space: pre;
+    align-content: center;
     line-height: 50px;
     kerning: 110%;
 }
@@ -148,3 +147,20 @@ footer {
     color: white;
 }
 
+@media (min-width: 0px) {
+    div{
+        font-size-adjust: 0.5;
+    }
+}
+
+@media (min-width: 500px) {
+    div{
+        font-size-adjust: 0.7;
+    }
+}
+
+@media (min-width: 1400px) {
+    div{
+        font-size-adjust: none;
+    }
+}
