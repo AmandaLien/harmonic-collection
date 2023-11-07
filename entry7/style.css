@@ -139,12 +139,12 @@ a:hover {
 .boba-marquee{
     max-width: 100%;
     color:moccasin;
-    text-align: center;
 }
 
 footer {
     background-color:#9b2f01;
     color: white;
+    text-align: center;
 }
 
 @media (min-width: 0px) {
