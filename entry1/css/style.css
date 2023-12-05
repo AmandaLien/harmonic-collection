@@ -309,8 +309,9 @@ a.icon {
 /* ========================================== */
 #header{
   background-color: rgba(255, 248, 220, 0.89);
-  padding: 0px;
-  margin-top: 0px;
+  padding: 10px;
+  margin-top: 120px;
+  justify-items: center;
   h2 {
     color: #c03a00e6;
     text-align: center;
