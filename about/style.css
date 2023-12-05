@@ -9,8 +9,6 @@ body {
 p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 115.164px;
-    padding-top: 140px;
-    margin-left: 15px;
     margin-right: 15px;
     padding-bottom: 20px;
 }
@@ -25,7 +23,7 @@ html {
 }
 
 h1 {
-    margin-left: 3px;
+    margin-left: 7px;
     font-size: 100px;
     color:#fffad1;
     margin-top: 15px;
@@ -39,7 +37,8 @@ h1 {
 }
 
 hr.dotted {
-    border-top: 10px dotted #f1a856;
+    border-top: 25px dotted #e59438;
+    margin-top: 15px;
 }
 
 bold{
@@ -53,6 +52,7 @@ h2{
     text-align: center;
     padding: 20px;
     margin: 30px;
+    margin-top: 45px;
     align-content: center;
     line-height: 85px;
     kerning: 110%;
@@ -61,15 +61,19 @@ h2{
 .text{
     font-size: 30px;
     color:aliceblue;
-    margin-bottom: 40px;
+    margin-bottom: 0 px;
     line-height: 50px;
+    padding-bottom: 0;
 }
 
 .contact{
     text-align: left;
     color: lightgoldenrodyellow;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 30px;
+    font-weight: 350;
+    padding-bottom: 115px;
 }
 
 a{
@@ -120,12 +124,12 @@ a{
     transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
-    margin-top: 15px;
+    margin-top: 18.5px;
+    margin-left: 5px;
 }
 
 .container{
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 20px;
     margin-right: 90px;
     margin-left: 90px;
 }
