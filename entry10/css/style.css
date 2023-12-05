@@ -22,7 +22,7 @@ html {
 }
 
 h1 {
-  margin-left: 3px;
+  margin-left: 2px;
   font-size: 100px;
   color:#fffad1;
   margin-top: 15px;
@@ -30,8 +30,9 @@ h1 {
 
 h2 {
   color: #c03a00e6;
-  font-size: 75px;
+  font-size: 70px;
   text-align: center;
+  line-height: 85px;
 }
 
 h3{
@@ -48,7 +49,7 @@ h3{
 }
 
 hr.dotted {
-  border-top: 30px dotted #f1a856;
+  border-top: 25px dotted #e59438;
 }
 
 bold{
@@ -76,11 +77,6 @@ a:focus {
   -ms-transition: all 0.25s ease-out;
   -o-transition: all 0.25s ease-out;
   transition: all 0.25s ease-out;
-}
-
-img {
-  width: 100%;
-  max-width: 100%;
 }
 
 .caption-text{
@@ -123,13 +119,13 @@ img {
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    background: none repeat scroll 0 0 #fff;
+    background: none repeat scroll 0 0 #fcedcd;
 }
 
 .sk-spinner-pulse {
   width: 60px;
   height: 60px;
-  background-color: #111112;
+  background-color: #8f5e31;
   border-radius: 100%;
   -webkit-animation: sk-pulseScaleOut 1s infinite ease-in-out;
           animation: sk-pulseScaleOut 1s infinite ease-in-out; }
@@ -238,54 +234,15 @@ a.icon {
 #header{
   background-color: rgba(255, 248, 220, 0.89);
   padding: 20px;
-  margin: 30px;
+  margin: 95px;
+  margin-top: 25px;
   h2 {
     color: #c03a00e6;
-    font-size: 75px;
     text-align: center;
     align-content: center;
     kerning: 110%;
   }
 }
-
-
-
-/*filter css*/
-.filter-wrapper {
-    width: 100%;
-    margin-bottom: 32px;
-    overflow: hidden;
-}
-
-.filter-wrapper li {
-    display: inline-block;
-    margin: 4px;
-}
-
-.filter-wrapper li a {
-    color: #666;
-    font-size: 13px;
-    font-weight: 400;
-    letter-spacing: 2px;
-    padding: 8px 17px;
-    margin-right: 2px;
-    margin-left: 2px;
-    text-transform: uppercase;
-    display: block;
-    text-decoration: none;
-    transition: all 0.4s ease-in-out;
-}
-.filter-wrapper li a:active {
-  background: #111112 !important;
-}
-.filter-wrapper li a:hover,
-.filter-wrapper li a:focus {
-  background: #111112;
-  color: #ffffff;
-}
-
-
-
 
 /* footer section styles
 /* ========================================== */
