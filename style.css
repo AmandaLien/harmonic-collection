@@ -4,15 +4,10 @@ body{
     background-size: 100%;
 }
 
-<<<<<<< HEAD
 .frame, a:hover{
     color: rgb(127, 65, 36);
 }
 
-
-
-=======
->>>>>>> parent of fef4bd9 (home page re-edit)
 .frame {
     background-color: transparent;
     display: flex;
