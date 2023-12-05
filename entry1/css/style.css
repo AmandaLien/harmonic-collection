@@ -29,9 +29,9 @@ hr.dotted {
 }
 
 .intro{
-  margin: 150px;
+  margin-top: 150px;
   margin-left: 113px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   font-size: 30px;
 }
 
@@ -309,9 +309,8 @@ a.icon {
 /* ========================================== */
 #header{
   background-color: rgba(255, 248, 220, 0.89);
-  padding: 20px;
-  margin: 95px;
-  margin-top: 150px;
+  padding: 0px;
+  margin-top: 0px;
   h2 {
     color: #c03a00e6;
     text-align: center;
