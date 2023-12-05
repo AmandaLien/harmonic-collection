@@ -12,7 +12,7 @@ p{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-html,body {
+html, body {
   width: 100%;
   overflow-x: hidden;
 }
@@ -194,8 +194,6 @@ img {
   -moz-transition: all 0.3s ease;
   letter-spacing: 0.3rem;
 }
-
-
 
 .sticky nav.nav-inner .navbar {
   height: 70px;

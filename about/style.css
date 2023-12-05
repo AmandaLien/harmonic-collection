@@ -1,0 +1,165 @@
+body {
+    background: linear-gradient(180deg, rgb(193.37, 171.94, 116.83) 0%, #C03A00 35%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightgoldenrodyellow; 
+    font-weight: 300;
+    position: relative;
+}
+  
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 115.164px;
+    padding-top: 140px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 20px;
+}
+
+html,body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+html {
+    font-size: 100%;
+}
+
+h1 {
+    margin-left: 3px;
+    font-size: 100px;
+    color:#fffad1;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.date{
+    margin: 30px;
+    margin-left: 54px;
+}
+
+hr.dotted {
+    border-top: 10px dotted #f1a856;
+}
+
+bold{
+    font-weight: bold;
+}
+
+h2{
+    background-color: rgba(255, 248, 220, 0.89);
+    color: #c03a00e6;
+    font-size: 75px;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+    align-content: center;
+    line-height: 85px;
+    kerning: 110%;
+}
+
+.text{
+    font-size: 30px;
+    color:aliceblue;
+    margin-bottom: 40px;
+    line-height: 50px;
+}
+
+.contact{
+    text-align: left;
+    color: lightgoldenrodyellow;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+a{
+    text-decoration: underline;
+}
+
+.entry-links{
+    color:#fffad1;
+    text-decoration: underline;
+    position: flex;
+    margin: 6px;
+}
+
+
+@media (min-width: 0px) {
+    div{
+        font-size-adjust: 0.5;
+    }
+}
+
+@media (min-width: 500px) {
+    div{
+        font-size-adjust: 0.7;
+    }
+}
+
+@media (min-width: 1400px) {
+    div{
+        font-size-adjust: none;
+    }
+}
+
+.navbar {
+    background: transparent;
+    height: 94px;
+    max-height: 94px;
+    margin: 0;
+    border-radius: 0;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    font-size: 24px;
+}
+  
+.brand {
+    float: left;
+    padding-top: 30px, 0, 0;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    margin-top: 15px;
+}
+
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 90px;
+    margin-left: 90px;
+}
+  
+.sticky nav.nav-inner .navbar {
+    height: 70px;
+    max-height: 70px;
+    margin: 0;
+    background: #ffffff;
+}
+  
+.sticky nav.transparent .navbar {
+    background: transparent;
+}
+  
+@media all and (max-width: 990px) {
+    .nav-text-light a {
+        color: #555555;
+    }
+    .nav-inner {
+        background: #ffffff;
+    }
+    .transparent {
+        background: transparent;
+    }
+    .navicon {
+        padding-right: 10px;
+    }
+    nav ul.right {
+    float: left;
+    }
+}
+  
+a.icon {
+    font-size: 32px;
+    padding-right: 20px;
+}
