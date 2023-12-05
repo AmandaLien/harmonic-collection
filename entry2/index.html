@@ -1,83 +1,121 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Some Boba</title>
-        <link rel="icon" href="images/Boba-IconBr.png"> <!--icon pic of title-->
-        <link rel= "stylesheet" href="../style/reset.css">
-        <link rel="stylesheet" href="style.css">
-        <link rel="images" href="images">
+        <title>Some Boba of the Week</title>
+        <link rel="icon" href="images/Boba-IconBr.png">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/style.css"> 
     </head>
 
     <body>
-        <br>
-        <img src="images/Boba-IconY.png"
-        alt="boba icon" style="float:left;width:45px;height:50x;">
-        <!--float allows text to go before or after the image-->
-
-        <h1>Boba of the Week</h1>
-        <hr>
-        <!--line divider-->
-
-        <div class="date">
-            <p><bold>  Sept. 19th, 2023</bold></p>
-        </div>
+        <button onclick="topFunction()" id="top-button" title="Go to top">Top</button>
         
-        <h2><bold>Teazzi's</bold> deep roast oolong tea latte + boba</h2>
+        <div class="preloader">
 
-        <div class="teazzi-pic" >
-            <img src="images/Subject.png" alt="teazzi boba">
+            <div class="sk-spinner sk-spinner-pulse"></div>
+      
         </div>
 
-        <ul>
-            <br>
-            <li>tea: 炭培鐵觀音 deep roast oolong tea</li>
-            <li>style: 鮮奶茶 tea latte</li>
-            <li>toppings: 珍珠 tapioca pearls</li>
-            <li>sugar level: 少糖 30%</li>
-            <li>ice level: 少冰 less ice</li>
-            <br>
-            <li>size: large</li>
-            <li>price: $6.5 + NY tax</li>
-            <li>location: Union Square - 47 West 14th St #3, NY 10017</li>
-            <br>
-            <li>other qualities: paper cup, plastic sealing and straw</li>
-            <br>
-            <li>rating: <code>&#9673;&#9673;&#9673;&#9673;&#9680;</code> </li>
-            <br>
-            <br>
-        </ul>    
-   
-        <br>
-        <div class="rating-text">
-            <p>
-                瓷禧 Teazzi never disappoints with their strong and rare tea scents. 
-                The taste of their boba pearls is always kept at a high level. 
-                However, since I always take a much longer time to finish the drink, I would end up tasting hardening pearls. 
-                I just wish the serving time was longer than it’s supposed to be. 
-                (not exactly stated, but can be assumed to be 1 hour) 
-                At this Union Square location, the service provided by their boba baristas is also very friendly.
-                 At the end, I would rate this 4.5 points just because 
-                I'd personally like the tea to be even stronger and maybe give them some space for improvement.    
-            </p>
+        <div class="nav-container">
+            <nav class="nav-inner transparent">
+      
+               <div class="navbar">
+                  <div class="container">
+                     <div class="row">
+                     <div class="brand">
+                        <a href="https://amandalien.github.io/harmonic-collection1/home/">
+                           <img src="images/Boba-IconY.png" alt="boba icon" style="max-height: 75px; width: 85px;">
+                        </a>
+                     </div>
+      
+                     <h1>Boba of the Week</h1>
+      
+                     <div class="date">
+                           <p><bold>  Sept. 19th, 2023</bold></p>
+                     </div>
+                     
+                     <hr class="dotted">
+                     <br>
+                     </div>
+                  </div>
+               </div>
+            </nav>
         </div>
-        <br>
-        <br>
+
+        <section id="header">
+            <div class="header-thumb">
+               <h2 class="wow fadeIn" data-wow-delay="0.6s">
+                    <bold>Teazzi's</bold> deep roast oolong tea latte + boba
+               </h2>
+            </div>
+        </section>
+        
+        <div class="row">
+            <div class="wow fadeInUp col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10" data-wow-delay="1.0s">
+                <div class="elements-intro">
+                    <div class="list-wrapper">
+                        <div class="boba-wiki" >
+                            <img src="images/Subject.png" alt="teazzi boba">
+                        </div>
+                        <div class="intro-ul">
+                            <ul>
+                                <br>
+                                <li>tea: 炭培鐵觀音 deep roast oolong tea</li>
+                                <li>style: 鮮奶茶 tea latte</li>
+                                <li>toppings: 珍珠 tapioca pearls</li>
+                                <li>sugar level: 少糖 30%</li>
+                                <li>ice level: 少冰 less ice</li>
+                                <br>
+                                <li>size: large</li>
+                                <li>price: $6.5 + NY tax</li>
+                                <li>location: Union Square - 47 West 14th St #3, NY 10017</li>
+                                <br>
+                                <li>other qualities: paper cup, plastic sealing and straw</li>
+                                <br>
+                                <li>rating: &#9673 &#9673 &#9673 &#9673 &#9680 </li>
+                            </ul>  
+                        </div>
+                    </div> 
+                </div>
+                <br>
+                <div class="text">
+                    <p>
+                        瓷禧 Teazzi never disappoints with their strong and rare tea scents. 
+                        The taste of their boba pearls is always kept at a high level. 
+                        However, since I always take a much longer time to finish the drink, I would end up tasting hardening pearls. 
+                        I just wish the serving time was longer than it’s supposed to be. 
+                        (not exactly stated, but can be assumed to be 1 hour) 
+                        At this Union Square location, the service provided by their boba baristas is also very friendly.
+                        At the end, I would rate this 4.5 points just because 
+                        I'd personally like the tea to be even stronger and maybe give them some space for improvement.    
+                    </p>
+                </div>
+                <br>
+                <br>
+            </div>
+        </div>
     </body>
 
     <footer>
-        <br>
-        <div class = "boba-marquee">
-            <marquee> everyday is a boba day~</marquee>
-            <!--for the rolling text-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                <marquee> everyday is a boba day~</marquee>
+                <br>
+                    <p class="wow fadeInUp"  data-wow-delay="0.3s">Copyright © 2023 Amanda Lien</p>
+                    <ul class="social-icon wow fadeInUp"  data-wow-delay="0.6s">
+                        <li><a href="https://amandalien.github.io/harmonic-collection/entry1/">previous entry</a></li>
+                        <li><a href="https://amandalien.github.io/harmonic-collection/entry3/">next entry</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-
-        <br>
-        <a href="https://amandalien.github.io/harmonic-collection1/entry1/">  previous entry </a>
-        <br>
-        <a href="https://amandalien.github.io/harmonic-collection1/entry3/">  next entry</a>
-        <p> </p>
-        <br>
-
     </footer>
 
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/script.js"></script>
 </html>

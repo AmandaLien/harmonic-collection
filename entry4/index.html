@@ -1,124 +1,167 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Some Boba</title>
-        <link rel="icon" href="images/Boba-IconBr.png"> <!--icon pic of title-->
-        <link rel= "stylesheet" href="../style/reset.css">
-        <link rel="stylesheet" href="style.css">
-        <link rel="images" href="images">
+        <title>Some Boba - Height & Diameter</title>
+        <link rel="icon" href="images/Boba-IconBr.png">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/style.css"> 
     </head>
 
     <body>
-        <br>
-        <img src="images/Boba-IconY.png"
-        alt="boba icon" style="float:left; max-height: 75px;">
-        <!--float allows text to go before or after the image-->
-
-        <h1>Packaging of Boba</h1>
-        <hr>
-
-        <div class="date">
-            <p><bold>  Oct. 3rd, 2023</bold></p>
-        </div>
+        <button onclick="topFunction()" id="top-button" title="Go to top">Top</button>
         
-        <hr class="dotted">
-        <br>
+        <div class="preloader">
 
-        <p>
+            <div class="sk-spinner sk-spinner-pulse"></div>
+      
+        </div>
+
+        <div class="nav-container">
+            <nav class="nav-inner transparent">
+      
+               <div class="navbar">
+                  <div class="container">
+                     <div class="row">
+                     <div class="brand">
+                        <a href="https://amandalien.github.io/harmonic-collection1/home/">
+                           <img src="images/Boba-IconY.png" alt="boba icon" style="max-height: 75px; width: 85px;">
+                        </a>
+                     </div>
+      
+                     <h1>Packaging of Boba</h1>
+      
+                     <div class="date">
+                           <p><bold>  Oct. 3rd, 2023</bold></p>
+                     </div>
+                     
+                     <hr class="dotted">
+                     <br>
+                     </div>
+                  </div>
+               </div>
+            </nav>
+        </div>
+
+        <div class="intro">
+            <p>
             Bubble tea is usually served in a tall disposable cup with a wide straw. 
             The straw allows you to enjoy the chewy tapioca pearls and other toppings along with the tea. 
             However, the design of the cup, the straw, or the bags varies between the stores. 
-        </p>
-
-        <h2><bold>Design</bold> of a Bubble Tea
-            <br>一杯珍奶的<bold>設計</bold>
-        </h2>
-        
-
-        <div class="boba-wiki" >
-            <img src="images/boba-wiki.png" alt="picture of a bubble tea from wikipedia">
-        </div>
-
-        <div class="elements-intro">
-            <p>Considering the design elements of Bubble Tea, it includes:</p>
-        </div>
-
-        <ul>
-            <br>
-            <li>height & diameter</li>
-            <li>volume</li>
-            <li>cup material</li>
-            <li>sealing material</li>
-            <li>logo placement</li>
-            <li>straw color and material</li>
-            <li>taste</li>
-            <li>price</li>
-            <br>
-            <br>
-        </ul>    
-
-        <h3>height & diameter   </h3>
-
-        <div class="text">
-            <p>
-                With cups from a few bubble tea brands, I collected some data.<br>
-
-                A <bold>Teazzi’s large-sized cup</bold> is measured to have a height of 6.5 in. and a diameter of 3.5 in. at the opening.<br>
-
-                Whereas <bold>Kungfu Tea’s medium-sized cups</bold> have a height of 5 in. and a diameter of 3.5 in. and 2.5 in. 
-                This is due to the way the cup is designed for the cylindrical shape to increase in size as the height rises.<br>
-
-                Lastly, a <bold>Moge Tea’s plus-sized cup</bold> is measured at a height of 6 in. and a diameter of 4.5 in.   
             </p>
         </div>
-        <br>
+
+        <section id="header">
+            <div class="header-thumb">
+               <h2 class="wow fadeIn" data-wow-delay="0.6s">
+                    <bold>Design</bold> of a Bubble Tea
+               </h2>
+               <h2 class="wow fadeInUp" data-wow-delay="0.9s">
+                  一杯珍奶的<bold>設計</bold>
+               </h2>
+            </div>
+        </section>
+
         <div class="row">
-            <div class="column">
-              <img src="images/teazzi-fullsize.jpeg" alt="A large Teazzi Boba" style="width:100%">
-            </div>
-            <div class="column">
-              <img src="images/kungfu-tea.png" alt="A medium Kung Fu Tea Boba" style="width:100%">
-            </div>
-            <div class="column">
-              <img src="images/moge.jpeg" alt="A plus-sized Moge Tea Boba" style="width:100%">
+            <div class="wow fadeInUp col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10" data-wow-delay="1.0s">
+                    <div class="elements-intro">
+                        <p>Considering the design elements of Bubble Tea, it includes:</p>
+                        
+                        <div class="list-wrapper">
+                            <div class="boba-wiki" >
+                                <img src="images/boba-wiki.png" alt="picture of a bubble tea from wikipedia">
+                            </div>
+                            <div class="intro-ul">
+                                <ul>
+                                    <br>
+                                    <li>height & diameter</li>
+                                    <li>volume</li>
+                                    <li>cup material</li>
+                                    <li>sealing material</li>
+                                    <li>logo placement</li>
+                                    <li>straw color and material</li>
+                                    <li>taste</li>
+                                    <li>price</li>
+                                </ul>  
+                            </div>
+                        </div> 
+                    </div>
+
+                    <h3>&#8226 height & diameter  </h3>
+
+                    <div class="text">
+                        <p>
+                            With cups from a few bubble tea brands, I collected some data.<br>
+
+                            A <bold>Teazzi’s large-sized cup</bold> is measured to have a height of 6.5 in. and a diameter of 3.5 in. at the opening.<br>
+
+                            Whereas <bold>Kungfu Tea’s medium-sized cups</bold> have a height of 5 in. and a diameter of 3.5 in. and 2.5 in. 
+                            This is due to the way the cup is designed for the cylindrical shape to increase in size as the height rises.<br>
+
+                            Lastly, a <bold>Moge Tea’s plus-sized cup</bold> is measured at a height of 6 in. and a diameter of 4.5 in.   
+                        </p>
+                    </div>
+                    <br>
+                    <div class="row1">
+                        <div class="column">
+                        <img src="images/teazzi-fullsize.jpeg" alt="A large Teazzi Boba" style="width:100%">
+                        </div>
+                        <div class="column">
+                        <img src="images/kungfu-tea.png" alt="A medium Kung Fu Tea Boba" style="width:100%">
+                        </div>
+                        <div class="column">
+                        <img src="images/moge.jpeg" alt="A plus-sized Moge Tea Boba" style="width:100%">
+                        </div>
+                    </div>
+
+                    <br>
+                    <br>
+
+                    <div class="text">
+                        <p>
+                            After researching, I found that the height of a standard bubble tea cup can vary depending on the size and style of the cup used by different bubble tea shops and regions. 
+                            A typical bubble tea cup tends to range in height from 6 to 8 inches (15 to 20 centimeters). 
+                            Whereas a typical bubble tea cup tends to have a diameter ranging from 3 to 4 inches (7.5 to 10 centimeters) at the top opening of the cup.
+                            Together, the variables of a cup's height and diameter also contribute to a consumer's enjoyment as it balance the amount of toppings and tea in each sip.
+                            <br>
+                            <br>
+                        </p>
+
+                    </div>
+                    <div class="pic">
+                        <img src="images/measurements.png">
+                    </div>
+                    <div class="text">
+                        <p>
+                            In the next entry, we will talk about the <bold>volume design</bold> for different bubble tea stores!
+                        </p>
+                    </div>
+                    <br>
+                    
+                    <br>
             </div>
         </div>
-
-        <br>
-        <br>
-
-        <div class="text">
-            <p>The height of a standard bubble tea cup can vary depending on the size and style of the cup used by different bubble tea shops and regions. 
-                A typical bubble tea cup tends to range in height from 6 to 8 inches (15 to 20 centimeters). 
-                Whereas a typical bubble tea cup tends to have a diameter ranging from 3 to 4 inches (7.5 to 10 centimeters) at the top opening of the cup.
-                Together, the variables of a cup's height and diameter also contribute to a consumer's enjoyment as it balance the amount of toppings and tea in each sip.
-                ( I read this somewhere but now i can't find the source ahhhhh)
-                <br>
-                <br>
-                <br>
-                In the next entry, we will talk about the <bold>volume design</bold> for different bubble tea stores!
-            </p>
-        </div>
-        <br>
-        
-        <br>
     </body>
 
     <footer>
-        <br>
-        <div class = "boba-marquee">
-            <marquee> everyday is a boba day~</marquee>
-            <!--for the rolling text-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                <marquee> everyday is a boba day~</marquee>
+                <br>
+                    <p class="wow fadeInUp"  data-wow-delay="0.3s">Copyright © 2023 Amanda Lien</p>
+                    <ul class="social-icon wow fadeInUp"  data-wow-delay="0.6s">
+                        <li><a href="https://amandalien.github.io/harmonic-collection/entry3/">previous entry</a></li>
+                        <li><a href="https://amandalien.github.io/harmonic-collection/entry5/">next entry</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-
-        <br>
-        <a href="https://amandalien.github.io/harmonic-collection1/entry3/">    previous entry </a>
-        <br>
-        <a href="https://amandalien.github.io/harmonic-collection1/entry5/">    next entry</a>
-        <br>
-        <br>
-        <br>
-
     </footer>
 
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/script.js"></script>
 </html>
